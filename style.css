@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://i.pinimg.com/736x/c7/9a/94/c79a947faac53d1660a4b1655c21a9dc.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.tourism-card-container {
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.caption {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.button {
+    background-color: lightblue;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 50px;
+    width: 150px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.sevenwonders-bg-container {
+    background-image: url("https://i.pinimg.com/1200x/40/88/bf/4088bfafbf75b2c1cbb8234d59af99f1.jpg");
+    background-size: cover;
+    padding: 20px;
+}
+
+.sevenwonders-heading {
+    font-family: "Lobster";
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.sevenwonders-card-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sevenwonders-name {
+    color: black;
+    font-size: 30px;
+    font-weight: Bold;
+    font-family: "Roboto";
+    padding: 5px;
+}
+
+.sevenwonders-description {
+    color: black;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    padding: 5px;
+}
+
+.sevenwonders-card-img {
+    height: 200px;
+}
+
+.sevenwonders-button {
+    border-radius: 10px;
+    border-width: 0px;
+    height: 40px;
+    width: 80px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://i.pinimg.com/736x/3e/5b/c2/3e5bc28c14cc93acd48c27ff13fe4753.jpg");
+    background-size: cover;
+    padding: 25px;
+    margin: 10px;
+}
+
+.detailed-view-heading {
+    font-family: "Lobster";
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.detailed-view-card-container {
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 20px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.detailed-view-card-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.detailed-view-description {
+    font-family: "Roboto";
+    font-size: 15px;
+
+}
+
+.detailed-view-spots {
+    font-family: "Roboto";
+    font-size: 15px;
+    list-style-type: disc;
+}

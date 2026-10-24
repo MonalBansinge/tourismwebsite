@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectiontourism">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card-container">
+                <h1 class="main-heading">Tourism</h1>
+                <p class="caption">Plan Your Trip</p>
+                <button class="button" onclick="display('sectionsevenwonders')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionsevenwonders">
+        <div class="sevenwonders-bg-container">
+            <h1 class="sevenwonders-heading">7 Wonders Of The World</h1>
+            <div class="sevenwonders-card-container d-flex flex-row">
+                <div>
+                    <h1 class="sevenwonders-name">The Taj Mahal</h1>
+                    <p class="sevenwonders-description">A timeless symbol of love, beauty, and eternal devotion. ❤️</p>
+                    <p class="sevenwonders-description" onclick="display('sectiondetailedviewtajmahal')">Click here for more details.....</p>
+
+                </div>
+                <img src="https://i.pinimg.com/736x/7f/52/ed/7f52ed4e4902abe418288a0dce81e7f4.jpg" class="sevenwonders-card-img" />
+            </div>
+
+            <div class="sevenwonders-card-container d-flex flex-row">
+                <div>
+                    <h1 class="sevenwonders-name">The Great Wall Of China</h1>
+                    <p class="sevenwonders-description">A magnificent wall that stands as a symbol of strength, history, and human determination. 🏯</p>
+                    <p class="sevenwonders-description " onclick="display('sectiondetailedviewgreatwallofchina')">Click here for more details.....</p>
+                </div>
+                <img src="https://i.pinimg.com/1200x/3b/33/1b/3b331b564bc0dcdde10565774217dd6c.jpg" class="sevenwonders-card-img" />
+            </div>
+
+            <div class="sevenwonders-card-container d-flex flex-row">
+                <div>
+                    <h1 class="sevenwonders-name">Petra – Jordan</h1>
+                    <p class="sevenwonders-description">A hidden wonder carved in stone, where ancient civilization meets breathtaking beauty. 🌹</p>
+                    <p class="sevenwonders-description " onclick="display('sectiondetailedviewpetra')">Click here for more details.....</p>
+                </div>
+                <img src="https://i.pinimg.com/736x/d9/b2/61/d9b26141c2f2c11699ab5f1cf06b05a8.jpg" class="sevenwonders-card-img" />
+            </div>
+
+            <div class="sevenwonders-card-container d-flex flex-row">
+                <div>
+                    <h1 class="sevenwonders-name">Christ the Redeemer – Brazil</h1>
+                    <p class="sevenwonders-description">With open arms, this magnificent statue welcomes the world with peace, love, and hope. 🙏</p>
+                    <p class="sevenwonders-description " onclick="display('sectiondetailedviewchristtheredeemer')">Click here for more details.....</p>
+                </div>
+                <img src="https://i.pinimg.com/1200x/5a/13/4b/5a134bcee88ebf66fa61d86f1bd3f6cc.jpg" class="sevenwonders-card-img" />
+            </div>
+
+            <div class="sevenwonders-card-container d-flex flex-row">
+                <div>
+                    <h1 class="sevenwonders-name">Machu Picchu – Peru</h1>
+                    <p class="sevenwonders-description">An ancient city above the clouds, revealing the extraordinary wisdom of the Inca civilization. ⛰️</p>
+                    <p class="sevenwonders-description " onclick="display('sectiondetailedviewmachupichu')">Click here for more details.....</p>
+                </div>
+                <img src="https://i.pinimg.com/736x/10/2e/8a/102e8a4a9a09745e6a08239f2aa12d59.jpg" class="sevenwonders-card-img" />
+            </div>
+
+            <div class="sevenwonders-card-container d-flex flex-row">
+                <div>
+                    <h1 class="sevenwonders-name">Chichén Itzá – Mexico</h1>
+                    <p class="sevenwonders-description">Where ancient Maya knowledge, astronomy, and architecture come together in a spectacular wonder. 🌞</p>
+                    <p class="sevenwonders-description " onclick="display('sectiondetailedviewchichenitza')">Click here for more details.....</p>
+                </div>
+                <img src="https://i.pinimg.com/736x/9f/64/64/9f64646b04eba6d22af500f58c24fb4e.jpg" class="sevenwonders-card-img" />
+            </div>
+
+            <div class="sevenwonders-card-container d-flex flex-row">
+                <div>
+                    <h1 class="sevenwonders-name">Colosseum – Italy</h1>
+                    <p class="sevenwonders-description">A legendary arena where the grandeur, courage, and history of ancient Rome come alive. 🏛️</p>
+                    <p class="sevenwonders-description " onclick="display('sectiondetailedviewcolosseum')">Click here for more details.....</p>
+                </div>
+                <img src="https://i.pinimg.com/736x/8a/02/bb/8a02bb3856cc45269e763416b89235da.jpg" class="sevenwonders-card-img" />
+            </div>
+            <div class="text-center">
+                <button class="sevenwonders-button" onclick="display('sectiontourism')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetailedviewtajmahal">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicatorstajmahal" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicatorstajmahal" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicatorstajmahal" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicatorstajmahal" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/736x/54/5b/26/545b267012cefd0c981df42046701e4a.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/cb/42/f0/cb42f0f53c151ae04ee0662aba3bf205.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/4b/01/f2/4b01f2994bddb157827fb3dd1abb0e47.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorstajmahal" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorstajmahal" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">The Taj Mahal</h1>
+                    <p class="detailed-view-description">The Taj Mahal is one of India's most iconic monuments and a universal symbol of love. Built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal, this magnificent white-marble mausoleum is admired for its symmetrical design, intricate carvings, beautiful gardens, and reflecting pools. Construction was completed around 1653. It is a UNESCO World Heritage Site.</p>
+                    <ul>
+                        <li class="detailed-view-spots">Agra Fort</li>
+                        <li class="detailed-view-spots">Mehtab Bagh</li>
+                        <li class="detailed-view-spots">Itimad-ud-Daulah's Tomb</li>
+                        <li class="detailed-view-spots">Akbar's Tomb</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="sevenwonders-button" onclick="display('sectionsevenwonders')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondetailedviewgreatwallofchina">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicatorsthegreatwallofchina" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicatorsthegreatwallofchina" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicatorsthegreatwallofchina" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicatorsthegreatwallofchina" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/736x/c1/93/4b/c1934b16c9bb75b8fee2fcd3a90faeb4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/736x/15/fe/54/15fe54a096a39685ff2e4f7766c83c1e.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/63/17/24/631724a0e73326b008f41a8764227bbb.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorsthegreatwallofchina" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorsthegreatwallofchina" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">The Great Wall Of China</h1>
+                    <p class="detailed-view-description">The Great Wall of China is an extraordinary defensive structure built and expanded by different Chinese dynasties over many centuries. It stretches across mountains, valleys, and vast landscapes. The wall was constructed to protect Chinese territories and control important routes. Its watchtowers, stone pathways, and breathtaking mountain views make it one of the world's most impressive historical landmarks. The Mutianyu section is particularly popular for its scenery and well-preserved architecture</p>
+                    <ul>
+                        <li class="detailed-view-spots">Mutianyu Great Wall</li>
+                        <li class="detailed-view-spots">Forbidden City</li>
+                        <li class="detailed-view-spots">Temple of Heaven</li>
+                        <li class="detailed-view-spots">Ming Tombs</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <button class="sevenwonders-button" onclick="display('sectionsevenwonders')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondetailedviewpetra">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicatorspetra" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicatorspetra" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicatorspetra" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicatorspetra" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/1200x/3b/b0/d6/3bb0d64ff3400efee6b800166c67aa92.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/11/52/40/115240cfff80abe9f3f8a72e3304941c.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/736x/44/17/1b/44171b5cde5bb8c81915c09bee3835b7.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorspetra" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorspetra" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Petra-Jordan</h1>
+                    <p class="detailed-view-description">The Petra is an ancient archaeological city famous for its rose-red sandstone architecture. Established as a major center by the Nabataeans more than 2,000 years ago, Petra became an important trading hub connecting different civilizations. Its buildings, tombs, temples, and water-management systems reveal the remarkable engineering skills of its inhabitants. The Treasury, known as Al-Khazneh, is its most recognizable monument.</p>
+                    <ul>
+                        <li class="detailed-view-spots">Al-Khazneh (The Treasury)</li>
+                        <li class="detailed-view-spots">Ad Deir (The Monastery)</li>
+                        <li class="detailed-view-spots">Little Petra</li>
+                        <li class="detailed-view-spots">Wadi Rum</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <button class="sevenwonders-button" onclick="display('sectionsevenwonders')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondetailedviewchristtheredeemer">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicatorschristtheredeemer" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicatorschristtheredeemer" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicatorschristtheredeemer" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicatorschristtheredeemer" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/1200x/6d/fe/d7/6dfed79ecf010ac4d7a144d2eecf3523.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/93/e1/9a/93e19ab1bf708709ab2da14374b2c055.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/7e/fe/aa/7efeaafd1bf205d1c54aba74d2af5e47.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorschristtheredeemer" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorschristtheredeemer" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Christ the Redeemer</h1>
+                    <p class="detailed-view-description">The Christ the Redeemer is a monumental statue of Jesus Christ standing atop Mount Corcovado, approximately 710 metres above sea level. Completed in 1931, the statue has become an international symbol of Brazil. Its outstretched arms represent welcome and are often associated with peace and faith. Visitors can enjoy spectacular views of Rio de Janeiro's mountains, coastline, and cityscape from the summit.</p>
+                    <ul>
+                        <li class="detailed-view-spots">Tijuca National Park</li>
+                        <li class="detailed-view-spots">Sugarloaf Mountain</li>
+                        <li class="detailed-view-spots">Copacabana Beach</li>
+                        <li class="detailed-view-spots">Selarón Steps</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <button class="sevenwonders-button" onclick="display('sectionsevenwonders')">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectiondetailedviewmachupichu">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicatorsmachupichu" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicatorsmachupichu" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicatorsmachupichu" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicatorsmachupichu" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/1200x/53/39/f4/5339f4152bf6c3eaf20a659272e49507.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/64/2a/c7/642ac7a547745ccbe9cb8ab945af3343.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/736x/33/76/d1/3376d1a3139dd737942a91169548555c.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorsmachupichu" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorsmachupichu" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Machu Picchu-Peru</h1>
+                    <p class="detailed-view-description">The Machu Picchu is an ancient Inca citadel located approximately 2,430 metres above sea level in the Andes Mountains. Believed to have been built in the 15th century, it contains stone temples, residential structures, agricultural terraces, and ceremonial spaces. The Incas constructed these structures with remarkable precision, fitting massive stones together without traditional mortar. Surrounded by misty mountains and tropical forests, Machu Picchu is admired for both its engineering and natural beauty.</p>
+                    <ul>
+                        <li class="detailed-view-spots">Huayna Picchu</li>
+                        <li class="detailed-view-spots">Aguas Calientes</li>
+                        <li class="detailed-view-spots">Ollantaytambo</li>
+                        <li class="detailed-view-spots">Sacred Valley of the Incas</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <button class="sevenwonders-button" onclick="display('sectionsevenwonders')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondetailedviewchichenitza">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicatorschichenitza" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicatorschichenitza" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicatorschichenitza" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicatorschichenitza" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/736x/28/1f/ee/281fee5e103d167f4393bd5667bd3d07.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/7d/f2/51/7df2514795e55c62dd4a45a3925227b1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/736x/ae/dd/61/aedd618b9f6683715b2cd5fd45221580.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorschichenitza" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorschichenitza" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Chichén Itzá — Mexico</h1>
+                    <p class="detailed-view-description">The Chichén Itzá is one of the most important archaeological sites of the ancient Maya civilization. Its famous pyramid, El Castillo, is associated with Kukulcán, the feathered-serpent deity. The city contains temples, ceremonial platforms, a large ball court, and structures that demonstrate the Maya people's advanced knowledge of mathematics, astronomy, and architecture. Today, it offers visitors a fascinating glimpse into one of the Americas' great ancient civilizations.</p>
+                    <ul>
+                        <li class="detailed-view-spots">Cenote Ik Kil</li>
+                        <li class="detailed-view-spots">Valladolid</li>
+                        <li class="detailed-view-spots">Cenote Suytun</li>
+                        <li class="detailed-view-spots">Ek Balam</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <button class="sevenwonders-button" onclick="display('sectionsevenwonders')">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectiondetailedviewcolosseum">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicatorscolosseum" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicatorscolosseum" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicatorscolosseum" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicatorscolosseum" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/736x/e8/c8/3d/e8c83dae40a489e1fa4388de02690512.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/41/8b/95/418b958e460af999c66debf24cf423eb.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/736x/7d/6c/f4/7d6cf4536b473be336918c77060e03ab.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorscolosseum" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorscolosseum" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Colosseum-Italy</h1>
+                    <p class="detailed-view-description">The Colosseum is one of the greatest surviving monuments of the Roman Empire. Built in the first century AD, this enormous amphitheatre hosted gladiatorial contests, animal hunts, and public spectacles. Its multiple levels of arches and complex design demonstrate the engineering expertise of ancient Rome. Today, it remains one of the world's most recognizable historical landmarks and offers visitors a glimpse into the lives and entertainment of ancient Romans.</p>
+                    <ul>
+                        <li class="detailed-view-spots">Roman Forum</li>
+                        <li class="detailed-view-spots">Palatine Hill</li>
+                        <li class="detailed-view-spots">Arch of Constantine</li>
+                        <li class="detailed-view-spots">Trevi Fountain</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <button class="sevenwonders-button" onclick="display('sectionsevenwonders')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
